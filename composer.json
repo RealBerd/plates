@@ -1,0 +1,33 @@
+{
+    "name": "realberd/plates",
+    "description": "Extensions for Plates template engine.",
+    "keywords": [
+        "league",
+        "plates",
+        "extenstion",
+        "slim"
+    ],
+    "license": "MIT",
+    "authors" : [
+        {
+            "name": "Nikita Berdnikov",
+            "email": "berd.na@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mikey179/vfsStream": "~1.4.0",
+        "squizlabs/php_codesniffer": "~1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "League\\Plates\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        }
+    }
+}
