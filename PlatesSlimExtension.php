@@ -1,5 +1,7 @@
 <?php
 
+namespace \RealBerd\Plates;
+
 use League\Plates\Extension;
 use League\Plates\Engine;
 

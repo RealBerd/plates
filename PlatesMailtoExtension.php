@@ -1,6 +1,6 @@
 <?php
 
-namespace \RealBerd\SlimPlates
+namespace \RealBerd\Plates;
 
 use League\Plates\Extension;
 use League\Plates\Engine;
